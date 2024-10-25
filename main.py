@@ -42,8 +42,6 @@ with st.container():
         st.write("""At SourPippin we specialize in providing tailored assignment assistance for students in the field of Information Technology and beyond.
         As a platform created by tech enthusiasts,
         we leverage the latest tools and resources to deliver comprehensive solutions that not only solve your assignments but also enhance your understanding of complex concepts.""")
-        st.write("""Our team of IT experts is here to help you navigate topics like programming, database management, cybersecurity, and more. We break down challenging problems into manageable steps, 
-        ensuring you grasp the underlying principles while achieving academic success.""")
         st.write("Join a community of learners who trust SourPippin for reliable, cutting-edge support.")
         st.write("Let us help you tackle your assignments with confidence!")
         st.subheader("Checkout our Social Sites")
@@ -58,9 +56,9 @@ with st.container():
 
 
     with text_column:
-        st.subheader("Why S3P Tech Services?")
-        st.write("Expertise: Our technicians are certified and experienced, ensuring top-notch repairs.")
-        st.write("Quick Turnaround: We know you can’t be without your devices for long. Our efficient service gets you back up and running swiftly.")
+        st.subheader("Why Assignment For Mates?")
+        st.write("""Our team of IT experts is here to help you navigate topics like programming, database management, cybersecurity, and more. We break down challenging problems into manageable steps, 
+        ensuring you grasp the underlying principles while achieving academic success.""")
 
 with st.container():
     st.write("___")
