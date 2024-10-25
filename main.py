@@ -28,9 +28,9 @@ img_repair = Image.open("Images/repair.jpg")
 
 #---Header
 with st.container():
-    st.subheader("your friend in tech services")
-    st.title("S3P Tech Services")
-    st.write("Hello, you should try our comprehensive services.")
+    st.subheader("your friend in Assignment Services")
+    st.title("Assignment For Mates")
+    st.write("Welcome to SourPippin – Your Tech-Savvy Assignment Helper!")
     st.write("learn more")
 
 # --- Body ---
@@ -39,10 +39,13 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header(" Our Services")
-        st.write("Laptop and Computer Services: Whether it’s a faulty keyboard, a broken hinge, or a malfunctioning hard drive, our team can handle it all.")
-        st.write("Virus Removal and Security: Worried about malware? We’ll clean up your system and enhance its security.")
-        st.write("Data Recovery: Accidentally deleted important files? We’ll recover them for you.")
-        st.write("Gaming PC cleaning: It feels like brand new with our expert touch up.")
+        st.write("""At SourPippin we specialize in providing tailored assignment assistance for students in the field of Information Technology and beyond.
+        As a platform created by tech enthusiasts,
+        we leverage the latest tools and resources to deliver comprehensive solutions that not only solve your assignments but also enhance your understanding of complex concepts.""")
+        st.write("""Our team of IT experts is here to help you navigate topics like programming, database management, cybersecurity, and more. We break down challenging problems into manageable steps, 
+        ensuring you grasp the underlying principles while achieving academic success.""")
+        st.write("Join a community of learners who trust SourPippin for reliable, cutting-edge support.")
+        st.write("Let us help you tackle your assignments with confidence!")
         st.subheader("Checkout our Social Sites")
 
     with right_column:
