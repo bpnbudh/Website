@@ -28,7 +28,6 @@ img_repair = Image.open("Images/repair.jpg")
 
 #---Header
 with st.container():
-    st.subheader("your friend in Assignment Services")
     st.title("Assignment For Mates")
     st.write("Welcome to Assignmentformates – Your Tech-Savvy Assignment Helper!")
     st.write("We respect your privacy.")
