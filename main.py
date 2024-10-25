@@ -30,8 +30,8 @@ img_repair = Image.open("Images/repair.jpg")
 with st.container():
     st.subheader("your friend in Assignment Services")
     st.title("Assignment For Mates")
-    st.write("Welcome to SourPippin – Your Tech-Savvy Assignment Helper!")
-    st.write("learn more")
+    st.write("Welcome to Assignmentformates – Your Tech-Savvy Assignment Helper!")
+    st.write("We respect your privacy.")
 
 # --- Body ---
 with st.container():
@@ -39,10 +39,10 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header(" Our Services")
-        st.write("""At SourPippin we specialize in providing tailored assignment assistance for students in the field of Information Technology and beyond.
+        st.write("""At Assignmentformates we specialize in providing tailored assignment assistance for students in the field of Information Technology and beyond.
         As a platform created by tech enthusiasts,
         we leverage the latest tools and resources to deliver comprehensive solutions that not only solve your assignments but also enhance your understanding of complex concepts.""")
-        st.write("Join a community of learners who trust SourPippin for reliable, cutting-edge support.")
+        st.write("Join a community of learners who trust Assignmentformates for reliable, cutting-edge support.")
         st.write("Let us help you tackle your assignments with confidence!")
         st.subheader("Checkout our Social Sites")
 
