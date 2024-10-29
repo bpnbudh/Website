@@ -23,8 +23,8 @@ def load_css(file):
 load_css("style/style.css")
 
 l_ani = load_lottie_ani("https://lottie.host/0680ed40-d9df-4ed9-b27f-af607e7563ec/MVRtC5Ktiz.json")
-img_pc = Image.open("Images/PC1.jpg")
-img_repair = Image.open("Images/repair.jpg")
+img_pc = Image.open("images/PC1.jpg")
+img_repair = Image.open("images/repair.jpg")
 
 #---Header
 with st.container():
